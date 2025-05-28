@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Boldonse&family=Bytesized&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruslan+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #181818;
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+
+.header-container {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-container nav {
+    width: 980px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: small;
+}
+
+.header-container nav div:hover {
+    color: #888888;
+    cursor: pointer;
+}
+
+.header-container div {
+    width: 93px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.green-tag{
+    background-color: #68E082;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    width: 80px
+}
+
+
+.middle-news{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 30px;
+}
+
+div.text{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 30px;
+}
+
+div.info{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+div.green-tag{
+    background-color: #68E082;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    width: 80px
+}
+.middle-img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.main-news{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 98px;
+    height: 108px;
+}
+.main img{
+    width: 20%;
+}
+
+.mini-news{
+    width: 40%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+}
+.mini-news div{
+    width: 40%;
+    
+}
+.mini-news p{
+    margin-top: 20px;
+}
+.News{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Comments{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div.name{
+    color: gray;
+    margin-bottom: 10px;
+}
+div.add-comment{
+    display: flex;
+
+}
+div.add-comment img{
+    width: 10%;
+}
+hr{
+    margin-bottom: 20px;
+}
+div.add-comment input{  
+    border: 1px white;
+}
+div.add-comment .Button-container a{
+    text-decoration: none;
+    color: black;
+}
+div.add-comment .Button-container a.button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    padding: 5px 10px;
+}
+
+.added-com{
+    margin-top: 100px;
+    display: flex;
+}
+
+.comments-img img{
+    width:69px;
+    height: 69px;
+}
+
+
+
+.com-text{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+div.answer-1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+div.answer-1 img{
+    width: 36px;
+    height: 36px;
+    margin-right: 10px
+}
+div.answer-2 img{
+    width: 36px;
+    height: 36px;
+    margin-right: 10px
+}
+div.answer-2{
+    margin-top: 30px;
+    display: flex;
+}
+.answers{
+    width: 50%;
+}
+
+div.answer-2 span{
+    color: red;
+}
+div.com-text a{
+    color: gray;
+}
+.com-text .a a{
+    display: flex;
+}
